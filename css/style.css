@@ -216,6 +216,7 @@ header .logo a img{
 .contact{
 	padding:20px 0px;
 	background-color: #222222;
+	margin-top: auto;
 }
 
 .contact .content{
