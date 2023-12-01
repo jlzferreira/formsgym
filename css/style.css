@@ -35,7 +35,8 @@ header{
 	width: 100%;
 	z-index: 10;
 	background-color: var(--main-color-second);
-	padding:15px 15px;
+	position: fixed;
+	padding: 20px 0 15px 0;
 }
 
 header .container{
@@ -63,15 +64,11 @@ header .logo a img{
 /*Price Section*/
 
 .price-package{
-	padding: 30px 0px;
+	padding: 100px 0px;
 	background-color: var(--main-color-first);
-	min-height: 80vh;
+	position: relative;
+  	min-height: 100vh;
 }
-
-.container {
-	height: 100%;
-}
-
 
 
 .price-package h2{
@@ -176,6 +173,7 @@ header .logo a img{
 
 .price-package .content .box .inner .text table i{
 	color: var(--main-color-third);
+	font-size: 1.2rem;
 }
 
 
@@ -291,16 +289,17 @@ header .logo a img{
 /*Contact Section*/
 
 .contact{
-	padding:20px 0px 0 0;
 	background-color: #222222;
-	margin-top: auto;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .contact .content{
 	-webkit-display: flex;
 	display: flex;
-	height: 100%;
-
 }
 
 .contact .content .box{
@@ -308,7 +307,6 @@ header .logo a img{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	padding-bottom: 20px;
 }
 
 
@@ -322,8 +320,8 @@ header .logo a img{
 	letter-spacing: 1px;
 	position: relative;
 	font-family: 'Roboto',sans-serif;
+	padding-top: 10px;
 }
-
 
 
 
