@@ -305,11 +305,9 @@ header .logo a img{
 .contact .content .box{
 	width: 100vw;
 	display: flex;
-	padding: 0 20px;
 	align-items: center;
 	justify-content: space-around;
 }
-
 
 
 .contact .content .text .info ul{
@@ -323,6 +321,10 @@ header .logo a img{
 	letter-spacing: 1px;
 	position: relative;
 	font-family: 'Roboto',sans-serif;
+}
+
+.contact .content .text .info li:last-child{
+	margin-bottom: 20px;
 }
 
 .contact .content .text .info li i{
