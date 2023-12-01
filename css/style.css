@@ -286,7 +286,7 @@ header .logo a img{
 /*Contact Section*/
 
 .contact{
-	padding:20px 0px;
+	padding:20px 0px 0 0;
 	background-color: #222222;
 	margin-top: auto;
 }
@@ -302,15 +302,13 @@ header .logo a img{
 	display: flex;
 	padding: 0 20px;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 
 
 .contact .content .text .info ul{
 	list-style: none;
-	padding:0;
-	margin:0;
 }
 
 .contact .content .text .info li{
