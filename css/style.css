@@ -299,6 +299,7 @@ header .logo a img{
 .contact .content{
 	-webkit-display: flex;
 	display: flex;
+	height: 100%;
 
 }
 
@@ -307,6 +308,7 @@ header .logo a img{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	padding-bottom: 20px;
 }
 
 
@@ -315,7 +317,6 @@ header .logo a img{
 }
 
 .contact .content .text .info li{
-	margin-bottom: 10px;
 	color:#ffffff;
 	font-size: 1rem;
 	letter-spacing: 1px;
@@ -323,14 +324,14 @@ header .logo a img{
 	font-family: 'Roboto',sans-serif;
 }
 
-.contact .content .text .info li:last-child{
-	margin-bottom: 20px;
-}
+
+
 
 .contact .content .text .info li i{
 	margin-right: 15px;
-	font-size: 1.2rem;
+	font-size: 1.2rem;	
 }
+
 
 .contact .content .text .info li span{
 	display: inline-block;
